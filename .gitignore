@@ -1,0 +1,39 @@
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+
+# VS Code / Rider / IDE files
+.vscode/
+*.csproj
+*.sln
+*.user
+*.unityproj
+*.pidb
+*.booproj
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos pesados / builds
+*.app/
+*.apk
+*.aab
+*.exe
+*.zip
+*.7z
+*.unitypackage
+Build/
+intento1.app/
+
+# Otros
+*.bak
+*.cache
+*.log
+*.pdb
+*.mdb
