@@ -1,12 +1,12 @@
 using UnityEngine;
 
-public class AutoRotate : MonoBehaviour
+public class GlobalAxisRotate : MonoBehaviour
 {
-    public Vector3 rotationSpeed = new Vector3(0, 30, 0); // grados por segundo
+    public float rotationSpeed = 5f; // grados por segundo
+    public Vector3 worldAxis = Vector3.up; // eje Y global
 
     void Update()
     {
-        transform.Rotate(rotationSpeed * Time.deltaTime);
+        transform.Rotate(worldAxis, rotationSpeed * Time.deltaTime, Space.World);
     }
 }
-

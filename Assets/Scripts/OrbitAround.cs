@@ -2,14 +2,11 @@ using UnityEngine;
 
 public class OrbitAround : MonoBehaviour
 {
-    public Transform centerPoint;
     public float speed = 20f;
 
     void Update()
     {
-        if (centerPoint != null)
-        {
-            transform.RotateAround(centerPoint.position, Vector3.up, speed * Time.deltaTime);
-        }
+        // Orbita alrededor del punto (0,0,0), sobre el eje Y del mundo
+        transform.RotateAround(Vector3.zero, Vector3.up, speed * Time.deltaTime);
     }
 }
