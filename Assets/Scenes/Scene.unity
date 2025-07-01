@@ -353,7 +353,7 @@ AudioSource:
   m_GameObject: {fileID: 192832568}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 1447105004fbf8441a3b4a90fb36f476, type: 2}
   m_audioClip: {fileID: 8300000, guid: 5efcc39b6f827479b8ce4367efe20f4e, type: 3}
   m_Resource: {fileID: 8300000, guid: 5efcc39b6f827479b8ce4367efe20f4e, type: 3}
   m_PlayOnAwake: 1
@@ -1159,7 +1159,7 @@ Transform:
   m_GameObject: {fileID: 540841595}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 120, y: -1.9, z: 38}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1488,7 +1488,7 @@ Transform:
   m_GameObject: {fileID: 606912110}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 10, y: 51.3, z: -38.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1541,7 +1541,7 @@ AudioSource:
   m_GameObject: {fileID: 774222218}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 1447105004fbf8441a3b4a90fb36f476, type: 2}
   m_audioClip: {fileID: 8300000, guid: 37a7e397454f3f2478319a46f6614f9c, type: 3}
   m_Resource: {fileID: 8300000, guid: 37a7e397454f3f2478319a46f6614f9c, type: 3}
   m_PlayOnAwake: 1
@@ -1638,7 +1638,7 @@ Transform:
   m_GameObject: {fileID: 774222218}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 16.300856, y: 69.2, z: -55.9}
+  m_LocalPosition: {x: 16.300856, y: 90, z: -50}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3308,7 +3308,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18b086eb8b9fa45cb93c57e5f0eb54ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 30
+  rotationSpeed: 3
   worldAxis: {x: 0, y: 1, z: 0}
 --- !u!1 &1808527904
 GameObject:
@@ -3729,7 +3729,7 @@ AudioSource:
   m_GameObject: {fileID: 1907938925}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 1447105004fbf8441a3b4a90fb36f476, type: 2}
   m_audioClip: {fileID: 8300000, guid: 5efcc39b6f827479b8ce4367efe20f4e, type: 3}
   m_Resource: {fileID: 8300000, guid: 5efcc39b6f827479b8ce4367efe20f4e, type: 3}
   m_PlayOnAwake: 1
@@ -3873,7 +3873,7 @@ AudioSource:
   m_GameObject: {fileID: 1916163188}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 1447105004fbf8441a3b4a90fb36f476, type: 2}
   m_audioClip: {fileID: 8300000, guid: 5efcc39b6f827479b8ce4367efe20f4e, type: 3}
   m_Resource: {fileID: 8300000, guid: 5efcc39b6f827479b8ce4367efe20f4e, type: 3}
   m_PlayOnAwake: 1
@@ -4044,7 +4044,7 @@ Transform:
   m_GameObject: {fileID: 1934140773}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -102.8195, y: 67.92, z: -113.5381}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4354,7 +4354,7 @@ AudioSource:
   m_GameObject: {fileID: 2031797068}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 1447105004fbf8441a3b4a90fb36f476, type: 2}
   m_audioClip: {fileID: 8300000, guid: 5efcc39b6f827479b8ce4367efe20f4e, type: 3}
   m_Resource: {fileID: 8300000, guid: 5efcc39b6f827479b8ce4367efe20f4e, type: 3}
   m_PlayOnAwake: 1
@@ -4483,7 +4483,7 @@ AudioSource:
   m_GameObject: {fileID: 2102362581}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 1447105004fbf8441a3b4a90fb36f476, type: 2}
   m_audioClip: {fileID: 8300000, guid: 37a7e397454f3f2478319a46f6614f9c, type: 3}
   m_Resource: {fileID: 8300000, guid: 37a7e397454f3f2478319a46f6614f9c, type: 3}
   m_PlayOnAwake: 1
@@ -4580,7 +4580,7 @@ Transform:
   m_GameObject: {fileID: 2102362581}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 16.300856, y: 29.9, z: 186.8207}
+  m_LocalPosition: {x: -119, y: 50, z: 72.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
