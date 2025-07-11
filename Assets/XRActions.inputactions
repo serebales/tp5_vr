@@ -1,0 +1,45 @@
+{
+    "name": "XRActions",
+    "maps": [
+        {
+            "name": "XRActions",
+            "id": "c4e028a5-3e1a-4bf2-8209-8a6ea2b8ebf6",
+            "actions": [
+                {
+                    "name": "Shoot",
+                    "type": "Button",
+                    "id": "bc45d709-5655-47c2-a1a9-ac2698ef5b7c",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f0afcd03-fd63-4fa1-8e1c-6a4cf2bab12a",
+                    "path": "<XRController>{RightHand}/{TriggerButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Shoot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fe7b7513-5f72-4f5e-875a-2085254fcced",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Shoot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
