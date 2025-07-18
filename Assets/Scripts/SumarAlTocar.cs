@@ -15,5 +15,11 @@ public class SumarAlTocar : MonoBehaviour
             yaSumo = true;
         }
     }
+
+    public void Resetear()
+    {
+        yaSumo = false;
+    }
 }
+
 

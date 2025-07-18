@@ -7,7 +7,7 @@ public class ContadorManager : MonoBehaviour
     public TextMeshProUGUI textoContador;
     public GameObject cartelVictoria;
 
-    public float tiempoParaReset = 3f; // tiempo en segundos antes de reiniciar el contador
+    public float tiempoParaReset = 6f; // tiempo en segundos antes de reiniciar el contador
 
     public void Sumar()
     {
@@ -45,16 +45,24 @@ public class ContadorManager : MonoBehaviour
     }
 
     private void ResetearContador()
+{
+    contador = 0;
+    ActualizarTexto();
+
+    if (textoContador != null)
+        textoContador.gameObject.SetActive(true);
+
+    if (cartelVictoria != null)
+        cartelVictoria.SetActive(false);
+
+    //Reseteamos todos los objetos que ya sumaron
+    SumarAlTocar[] objetos = FindObjectsOfType<SumarAlTocar>();
+    foreach (var obj in objetos)
     {
-        contador = 0;
-        ActualizarTexto();
-
-        if (textoContador != null)
-            textoContador.gameObject.SetActive(true);
-
-        if (cartelVictoria != null)
-            cartelVictoria.SetActive(false);
+        obj.Resetear();
     }
+}
+
 }
 
 
